@@ -1,7 +1,7 @@
 y = int(input("ingrese un año entre 1800 y 2001: "))
 a = y % 19 # hallar el residuo de Y entre 19 y almacenarlo en a.
 b = y/100 # halla el cociente de Y entre 100
-c = y%100 # halla el reciduo de Y entre 100
+c = y % 100 # halla el reciduo de Y entre 100
 d = b/4
 e = b%4
 g = ((8*b)+13)/25              # Paso 5
